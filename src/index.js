@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DropDown from './components/dropDown';
+import DropDown1 from './components/dropwDown-new';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DropDown />
+    <DropDown1 />
   </React.StrictMode>
 );
 
